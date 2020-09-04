@@ -34,7 +34,7 @@
 **RF**
 
 - O usuário não precisa estar autenticado para envio dos dados
-- O formulário deve compor os seguintes campos: nome, e-mail, fone, whatsApp, placa do carro, quilometragem, cidade do veículo, observação, foto do carro (anexo), lista com opções de motivos da venda do carro
+- O formulário deve compor os seguintes campos: nome, e-mail, fone, whatsApp, quilometragem, cidade do veículo, observação, foto do carro (anexo), lista com opções de motivos da venda do carro
 - Os dados do formulário devem persistir no banco de dados da aplicação
 - Deve ser informado ao vendedor o número da proposta criada, para posterior consulta, após a submissão do formulário
 - Para usuários que informarem o e-mail, deve ser enviado notificação com o número da proposta
@@ -92,13 +92,12 @@
 - O usuário deve poder listar todas os propostas cadastradas, filtrando por período de consulta;
 - O usuário deve poder listar todas os propostas cadastradas, filtrando por status;
 - O usuário deve poder listar todas os propostas cadastradas, filtrando por modelo de carro;
+- O usuário deve poder listar todas os propostas cadastradas, filtrando por cidade e bairro;
 - O usuário deve poder listar a proposta cadastrada, filtrando pela placa do carro;
 - O usuário deve poder criar uma nova proposta;
-- O usuário deve poder alterar uma nova proposta, modificando seus status;
+- O usuário deve poder alterar uma nova proposta, modificando seus status, observações e dados de vistoria;
 - O sistema deve notificar o vendedor quando a proposta for atualizada para status que dependam de retorno do vendedor
-- O sistema deve calcular prazo para primeiro contato do comprador (dedfinir prazo) ???
-- O sistema deve informar o valor do carro e percentual (???) sugerido deste valor para pagamento
-- O sistemma deve informar dados gerais do carro, fornecidos pelo DETRAN
+- O sistema deve calcular prazo para primeiro contato do comprador para o dia seguinte
 
 **RNF**
 
