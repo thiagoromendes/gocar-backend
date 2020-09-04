@@ -111,8 +111,8 @@
 
 **RN**
 
-- Cada proposta deve possuir um status que represente a situação atual da proposta, sendo estes: Aguardando análise, Em análise, Em Negociação, Aguardando aprovação, Em Renegociação, Aprovada e Reprovada;
-- Propostas em renegociação devem ser agendadas o novo contato com o cliente para tentar nova negociação
+- Cada proposta deve possuir um status que represente a situação atual da proposta, sendo estes: Aguardando análise, Em análise, Em Negociação, Aguardando aprovação, Continuar Negociação, Aprovada e Reprovada;
+- Propostas em cotinuação de negociação devem ser agendadas o novo contato com o cliente para tentar nova negociação
 - Na proposta deve ser definido agendamento de visita de avaliação e formulário de avaliação
 - O usuário não pode cadastrar uma proposta de um carro com proposta ativa;
 - O usuário não pode cadastrar uma proposta com um modelo de carro inexistente;
