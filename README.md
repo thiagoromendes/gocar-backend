@@ -77,6 +77,14 @@
 
 - A notificação deve ter um status de lida ou não lida para que o comprador possa controlar (???);
 
+# Painel do avaliador
+
+**RN**
+
+**RNF**
+
+**RN**
+
 # Processo das propostas
 
 **RF**
@@ -103,7 +111,9 @@
 
 **RN**
 
-- Cada proposta deve possuir um status que represente a situação atual da proposta, sendo estes: Aguardando análise, Em análise, Em Negociação, Aguardando aprovação, Aprovada e Reprovada;
+- Cada proposta deve possuir um status que represente a situação atual da proposta, sendo estes: Aguardando análise, Em análise, Em Negociação, Aguardando aprovação, Em Renegociação, Aprovada e Reprovada;
+- Propostas em renegociação devem ser agendadas o novo contato com o cliente para tentar nova negociação
+- Na proposta deve ser definido agendamento de visita de avaliação e formulário de avaliação
 - O usuário não pode cadastrar uma proposta de um carro com proposta ativa;
 - O usuário não pode cadastrar uma proposta com um modelo de carro inexistente;
 - O usuário não pode cadastrar uma proposta com uma placa de carro inexistente;
