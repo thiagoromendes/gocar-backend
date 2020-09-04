@@ -34,7 +34,7 @@
 **RF**
 
 - O usuário não precisa estar autenticado para envio dos dados
-- O formulário deve compor os seguintes campos: nome, e-mail, fone, whatsApp, placa do carro, quilometragem, cidade do veículo, observação, foto do carro (anexo)
+- O formulário deve compor os seguintes campos: nome, e-mail, fone, whatsApp, placa do carro, quilometragem, cidade do veículo, observação, foto do carro (anexo), lista com opções de motivos da venda do carro
 - Os dados do formulário devem persistir no banco de dados da aplicação
 - Deve ser informado ao vendedor o número da proposta criada, para posterior consulta, após a submissão do formulário
 - Para usuários que informarem o e-mail, deve ser enviado notificação com o número da proposta
